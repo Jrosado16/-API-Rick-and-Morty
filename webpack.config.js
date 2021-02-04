@@ -39,7 +39,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: '100tifi.co',
-            template: path.resolve(__dirname, './index.html')
+            template: path.resolve(__dirname, './public/index.html')
         }),
         new MiniCssExtractPlugin({
             filename: 'assets/[name].css'
